@@ -17,7 +17,7 @@ for job_elem in job:
         continue
 
 
-keyword = input('Please print input keyword')
+keyword = input('Please input keyword')
 
 try:
     _ = int(keyword)
