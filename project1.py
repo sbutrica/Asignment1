@@ -71,12 +71,6 @@ else:
     print("Did not execute")
 
 
-def __init__(self, create, JobInfo):
-       if(create):
-           self._data_fd = open(JobInfo, 'w')
 
-def __del__(self):
-       if(self._data_fd != None):
-           self._data_fd.close()
 text_file.close()
 
